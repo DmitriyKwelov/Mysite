@@ -43,6 +43,7 @@ header::before{
     font-size: 32px;
     line-height: 91.68%;
     color: #000000;
+    z-index: 111;
 }
 .header__list{
     display: flex;
@@ -453,6 +454,10 @@ main{
     .header__list li{
         list-style-type: none;
         margin: 20px 20px;
+    }
+    .header_link{
+        font-size: 24px;
+        padding: 15px 0;
     }
 }
 @media (max-width:380px){
