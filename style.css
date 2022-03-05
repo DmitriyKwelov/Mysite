@@ -27,7 +27,7 @@ header::before{
 .container{
     max-width: 1410px;
     margin: 0 auto;
-    padding: 0 70px;
+    padding: 0 50px;
 }
 #header__content{
     position: relative;
@@ -88,6 +88,9 @@ header::before{
 }
 #third__section h2{
     margin: 100px 0;
+}
+#fifth__section {
+    margin-top: 100px;
 }
 #secont__section__content {
     display: flex;
@@ -394,7 +397,7 @@ main{
     margin: 0 0 0 20px;
 }
 footer{
-    margin-top: 200px;
+    margin-top: 50px;
     width: 100%;
     background: #1A1A1A;
 }
@@ -458,6 +461,146 @@ footer{
     margin: 0;
     text-decoration: none;
 }
+.call__back__block h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 115.68%;
+    color: #000000;
+    margin: 0 0 30px 0;
+}
+.call__back__block__container{
+    padding: 0 60px;
+    width: 100%;
+}
+.btn__block__content{
+    position: relative;
+}
+.btn__block__content p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 115.68%;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    width: 100%;
+    top: -40px;
+}
+.call__back__block{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+.input{
+    width: 100%;
+    height: 64px;
+    border: 2px solid #8E8E8E;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 0;
+}
+.inputs__block{
+    display: flex;
+    width: 100%;
+}
+.input::placeholder{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 115.68%;
+    color: #8E8E8E;
+    display: flex;
+    align-items: center;
+}
+input[type="text"] {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 115.68%;
+    color: #000000;
+    padding: 0 0 0 25px;
+    display: flex;
+    align-items: center;
+}
+.input__name__block{
+    margin-right: 40px;
+}
+.modal{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgb(0, 0, 0, 0.5);
+    z-index: 115;
+    display: none;
+}
+.modal.active{
+    display: block;
+}
+.modal__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.modal__block_content{
+    position: relative;
+    width: 440px;
+    padding: 50px;
+    height: 360px;
+    background: #fff;
+    border-radius: 10px;
+}
+.form__modal{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal__block_content h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 115.68%;
+    color: #000000;
+    margin: 0 0 40px 0;
+}
+.cross {cursor: pointer; position: absolute; top: 40px; right: 50px;}
+.cross:before, .cross:after {content: ""; position: absolute; width: 24px; height: 4px; background: gray;}
+.cross:before {transform: rotate(45deg);}
+.cross:after {transform: rotate(-45deg);}
+.modal__input{
+    margin-bottom: 20px;
+}
+.btn__modal{
+    margin-top: 10px;
+}
+.input__number__block{
+    margin-right: 60px;
+}
+.nuber__nav__mob{
+    display: none;
+}
+.portfolio__title__m{
+    display: none;
+}
 @media (max-width:1400px){
     .work__list__title {
         font-size: 28px;
@@ -465,16 +608,27 @@ footer{
     .work__list__item{
         padding: 0 60px 0 0;
     }
+    .form__block__bnt{
+        margin: 0;
+    }
+}
+@media (max-width:1359px){
+    .prices {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }
 @media (max-width:1100px){
     .preview__work p {
         font-size: 22px;
     }
-}
-@media (max-width:991px){
     .container{
         padding: 0 20px;
     }
+}
+@media (max-width:991px){
     .mack__m{
         display: block;
         margin: 50px 0 0 0;
@@ -557,6 +711,9 @@ footer{
     .number{
         display: none;
     }
+    .nuber__nav__mob{
+        display: block;
+    }
     .header__list li{
         list-style-type: none;
         margin: 20px 10px;
@@ -619,6 +776,56 @@ footer{
         text-align: center;
         margin: 0;
     }
+    .call__back__block{
+        height: 500px;
+    }
+    .inputs__block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .input__name__block{
+        width: 420px;
+    }
+    .call__back__block h3 {
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+    .input__name__block {
+        margin: 0 0 20px 0;
+    }
+    .input__number__block{
+        margin-right: 0;
+    }
+    .form__block__bnt{
+        order: 1;
+    }
+    .btn__block__content p {
+        order: 2;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 115.68%;
+        text-align: center;
+        color: #000000;
+        position: relative;
+        width: 100%;
+        top: -0;
+    }
+    .portfolio__title__d{
+        display: none;
+    }
+    .portfolio__title__m{
+        display: block;
+        margin-top: 10px;
+    }
+    .portfolio__item {
+        margin-bottom: 100px;
+    }
 }
 @media (max-width:767px){
     .header__menu{
@@ -669,6 +876,13 @@ footer{
     .contacts {
         margin: 0;
     }
+    .modal__block_content {
+        width: 100%;
+        margin: 0 20px;
+    }
+    .input__name__block {
+        width: 100%;
+    }
 }
 @media (max-width:470px){
     .price__block{
@@ -680,6 +894,13 @@ footer{
         margin-bottom: 30px;
     }
     .price__btn{
+        width: 100%;
+    }
+    .call__back__block__container {
+        padding: 0 20px;
+        width: 100%;
+    }
+    .btn__modal{
         width: 100%;
     }
 }
@@ -716,5 +937,11 @@ footer{
         box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
         border-radius: 10px;
         padding: 25px;
+    }
+    .form__block__bnt {
+        width: 100%;
+    }
+    .btn__block__content {
+        width: 100%;
     }
 }

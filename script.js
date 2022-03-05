@@ -10,6 +10,28 @@ const test = document.querySelector('#test')
 const previewWork = document.querySelector('.preview__work')
 const previewTitle = document.querySelector('.preview__work__title')
 const previewDescription = document.querySelector('.preview__work__description')
+const openBtn = document.querySelectorAll('.open__modal__btn')
+const modal = document.querySelector('.modal')
+const modalContent= document.querySelector('.modal__block_content')
+const modalBlock = document.querySelector('.modal__block')
+const cross = document.querySelector('.cross')
+
+openBtn.forEach(element => {
+    element.addEventListener('click', () => {
+        modal.classList.add('active')
+        body.classList.add("no__scroll")
+    })
+});
+modal.addEventListener('click', (e) => {
+    if(e.target == modalBlock) {
+        modal.classList.remove('active')
+        body.classList.remove("no__scroll")
+    }
+})
+cross.addEventListener('click', (e) => {
+    modal.classList.remove('active')
+    body.classList.remove("no__scroll")
+})
 
 burgerBtn.addEventListener('click', () => {
     headerMenu.classList.toggle("active");

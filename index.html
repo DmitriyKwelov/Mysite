@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
+    <div class="modal">
+        <div class="modal__block">
+            <div class="modal__block_content">
+                <div class="cross"></div>
+                <form action="">
+                    <div class="form__modal">
+                        <h3>Оставте заявку</h3>
+                        <input class="input modal__input input__name__modal" type="text" placeholder="Имя">
+                        <input class="input modal__input input__number__modal" type="text" placeholder="Телефон">
+                        <button class="order__btn btn__modal order__submit">Заказать</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <header>
         <div class="container">
             <div id="header__content">
@@ -22,10 +39,11 @@
                         <li><a class="header_link" href="#">Как мы работаем</a></li>
                         <li><a class="header_link" href="#">Портфолио</a></li>
                         <li><a class="header_link" href="#">Стоимость</a></li>
+                        <li class="nuber__nav__mob"><a class="header_link" href="#">+7 995 789-54-84</a></li>
                     </ul>
                 </nav>
                 <div class="number">
-                    <span><a href="#">8 995 789-54-84</a></span>
+                    <span><a href="#">+7 995 789-54-84</a></span>
                 </div>
             </div>
         </div>
@@ -37,9 +55,10 @@
                     <div class="left__first__section__content">
                         <h1>Создадим<br> продающий<br>
                             сайт под ключ</h1>
-                            <img class="mack__m" src="img/Макбуук гиф.gif" alt="">
-                        <p class="main__description">Благодаря нашим сайтом. Взаимодействие с вашим<br class="main__description__br"> бизнесом для клиентов  становится проще</p>
-                        <button class="order__btn">Заказать сайт</button>
+                        <img class="mack__m" src="img/Макбуук гиф.gif" alt="">
+                        <p class="main__description">Благодаря нашим сайтом. Взаимодействие с вашим<br
+                                class="main__description__br"> бизнесом для клиентов становится проще</p>
+                        <button class="order__btn open__modal__btn">Заказать сайт</button>
                     </div>
                     <div class="right__first__section__content">
                         <img src="img/Макбуук гиф.gif" alt="">
@@ -72,40 +91,46 @@
                                 <span>1</span>
                                 <p class="work__list__title">Аналитика конкурентов</p>
                             </div>
-                            <p class="work__list__item__description">Аналитика бизнес-задач, планирование архитектуры, прототипирование и составление ТЗ</p>
+                            <p class="work__list__item__description">Аналитика бизнес-задач, планирование архитектуры,
+                                прототипирование и составление ТЗ</p>
                         </div>
                         <div id="prototype" class="work__list__item">
                             <div class="work__list__item__title">
                                 <span>2</span>
                                 <p class="work__list__title">Создание прототипа</p>
                             </div>
-                            <p class="work__list__item__description">Аналитика бизнес-задач, планирование архитектуры, прототипирование и составление ТЗ</p>
+                            <p class="work__list__item__description">Аналитика бизнес-задач, планирование архитектуры,
+                                прототипирование и составление ТЗ</p>
                         </div>
                         <div id="design" class="work__list__item active">
                             <div class="work__list__item__title">
                                 <span>3</span>
                                 <p class="work__list__title">Отрисовка дизайна</p>
                             </div>
-                            <p class="work__list__item__description">Аналитика бизнес-задач, планирование архитектуры, прототипирование и составление ТЗ</p>
+                            <p class="work__list__item__description">Аналитика бизнес-задач, планирование архитектуры,
+                                прототипирование и составление ТЗ</p>
                         </div>
                         <div id="program" class="work__list__item">
                             <div class="work__list__item__title">
                                 <span>4</span>
                                 <p class="work__list__title">Разработка сайта</p>
                             </div>
-                            <p class="work__list__item__description">Аналитика бизнес-задач, планирование архитектуры, прототипирование и составление ТЗ</p>
+                            <p class="work__list__item__description">Аналитика бизнес-задач, планирование архитектуры,
+                                прототипирование и составление ТЗ</p>
                         </div>
                         <div id="test" class="work__list__item">
                             <div class="work__list__item__title">
                                 <span>5</span>
                                 <p class="work__list__title">Процесс тестирования</p>
                             </div>
-                            <p class="work__list__item__description">Аналитика бизнес-задач, планирование архитектуры, прототипирование и составление ТЗ</p>
+                            <p class="work__list__item__description">Аналитика бизнес-задач, планирование архитектуры,
+                                прототипирование и составление ТЗ</p>
                         </div>
                     </div>
                     <div class="preview__work">
                         <h3 class="preview__work__title">Cоздание дизайна</h3>
-                        <p class="preview__work__description">Аналитика бизнес-задач, планирование архитектуры, прототипирование и составление ТЗ.</p>
+                        <p class="preview__work__description">Аналитика бизнес-задач, планирование архитектуры,
+                            прототипирование и составление ТЗ.</p>
                         <img src="img/image 6.jpg" alt="">
                     </div>
                 </div>
@@ -118,45 +143,53 @@
                     <div class="portfolio__item">
                         <div class="portfolio__picture__container">
                             <img class="portfolio__picture" src="img/portfolio.jpg" alt="">
+                            <h4 class="portfolio__title portfolio__title__m">Современный кухни</h4>
                         </div>
                         <div class="portfolio__info portfolio__info__right">
-                            <h4 class="portfolio__title">Современный кухни</h4>
+                            <h4 class="portfolio__title portfolio__title__d">Современный кухни</h4>
                             <a class="porfolio__link" href="">creatium.site</a>
-                            <p class="portfolio__description">Яркий одностраничный сайт в возможностью оформления заказа на доставку</p>
+                            <p class="portfolio__description">Яркий одностраничный сайт в возможностью оформления заказа
+                                на доставку</p>
                             <button class="order__btn portfolio__btn">Хочу такой же</button>
                         </div>
                     </div>
                     <div class="portfolio__item">
                         <div class="portfolio__info portfolio__info__left">
-                            <h4 class="portfolio__title">Современный кухни</h4>
+                            <h4 class="portfolio__title portfolio__title__d">Современный кухни</h4>
                             <a class="porfolio__link" href="">creatium.site</a>
-                            <p class="portfolio__description">Яркий одностраничный сайт в возможностью оформления заказа на доставку</p>
+                            <p class="portfolio__description">Яркий одностраничный сайт в возможностью оформления заказа
+                                на доставку</p>
                             <button class="order__btn portfolio__btn">Хочу такой же</button>
                         </div>
                         <div class="portfolio__picture__container">
                             <img class="portfolio__picture" src="img/portfolio.jpg" alt="">
+                            <h4 class="portfolio__title portfolio__title__m">Современный кухни</h4>
                         </div>
                     </div>
                     <div class="portfolio__item">
                         <div class="portfolio__picture__container">
                             <img class="portfolio__picture" src="img/portfolio.jpg" alt="">
+                            <h4 class="portfolio__title portfolio__title__m">Современный кухни</h4>
                         </div>
                         <div class="portfolio__info portfolio__info__right">
-                            <h4 class="portfolio__title">Современный кухни</h4>
+                            <h4 class="portfolio__title portfolio__title__d">Современный кухни</h4>
                             <a class="porfolio__link" href="">creatium.site</a>
-                            <p class="portfolio__description">Яркий одностраничный сайт в возможностью оформления заказа на доставку</p>
+                            <p class="portfolio__description">Яркий одностраничный сайт в возможностью оформления заказа
+                                на доставку</p>
                             <button class="order__btn portfolio__btn">Хочу такой же</button>
                         </div>
                     </div>
                     <div class="portfolio__item">
                         <div class="portfolio__info portfolio__info__left">
-                            <h4 class="portfolio__title">Современный кухни</h4>
+                            <h4 class="portfolio__title portfolio__title__d">Современный кухни</h4>
                             <a class="porfolio__link" href="">creatium.site</a>
-                            <p class="portfolio__description">Яркий одностраничный сайт в возможностью оформления заказа на доставку</p>
+                            <p class="portfolio__description">Яркий одностраничный сайт в возможностью оформления заказа
+                                на доставку</p>
                             <button class="order__btn portfolio__btn">Хочу такой же</button>
                         </div>
                         <div class="portfolio__picture__container">
                             <img class="portfolio__picture" src="img/portfolio.jpg" alt="">
+                            <h4 class="portfolio__title portfolio__title__m">Современный кухни</h4>
                         </div>
                     </div>
                 </div>
@@ -168,7 +201,8 @@
                 <div class="prices">
                     <div class="price__block">
                         <h3 class="price__title">Промо-сайт или лендинг</h3>
-                        <p class="price__description">Одностраничный сайт это быстрое и экономичное решение, максимально заточенное на получение прибыли</p>
+                        <p class="price__description">Одностраничный сайт это быстрое и экономичное решение, максимально
+                            заточенное на получение прибыли</p>
                         <div class="price__block__benefits">
                             <div class="price__block__benefit">
                                 <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
@@ -180,26 +214,39 @@
                             </div>
                             <div class="price__block__benefit">
                                 <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
-                                <p>Установка аналитики</p>
-                            </div>
-                            <div class="price__block__benefit">
-                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
                                 <p>Адаптапция под все устройства</p>
                             </div>
                             <div class="price__block__benefit">
                                 <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
-                                <p>Неограниченое количество  блоков</p>
+                                <p>Неограниченое количество блоков</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Настройка SEO</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Написание продающих текстов</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Консультация по будущему продвижению сайта</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Согласование каждого этапа работы</p>
                             </div>
                         </div>
                         <div class="bown__content__price">
                             <span class="price">от 49.000 ₽</span>
-                        <p class="time">Срок реализации: до 15 дней</p>
-                        <button class="order__btn price__btn">Рассчитать проект</button>
+                            <p class="time">Срок реализации: до 15 дней</p>
+                            <button class="order__btn price__btn open__modal__btn">Рассчитать проект</button>
                         </div>
                     </div>
                     <div class="price__block">
                         <h3 class="price__title">Промо-сайт или лендинг</h3>
-                        <p class="price__description">Одностраничный сайт это быстрое и экономичное решение, максимально заточенное на получение прибыли</p>
+                        <p class="price__description">Одностраничный сайт это быстрое и экономичное решение, максимально
+                            заточенное на получение прибыли</p>
                         <div class="price__block__benefits">
                             <div class="price__block__benefit">
                                 <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
@@ -211,26 +258,39 @@
                             </div>
                             <div class="price__block__benefit">
                                 <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
-                                <p>Установка аналитики</p>
-                            </div>
-                            <div class="price__block__benefit">
-                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
                                 <p>Адаптапция под все устройства</p>
                             </div>
                             <div class="price__block__benefit">
                                 <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
-                                <p>Неограниченое количество  блоков</p>
+                                <p>Неограниченое количество блоков</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Настройка SEO</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Написание продающих текстов</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Консультация по будущему продвижению сайта</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Согласование каждого этапа работы</p>
                             </div>
                         </div>
                         <div class="bown__content__price">
-                            <span class="price">от 49.000 ₽</span>
-                        <p class="time">Срок реализации: до 15 дней</p>
-                        <button class="order__btn price__btn">Рассчитать проект</button>
+                            <span class="price">от 69.000 ₽</span>
+                            <p class="time">Срок реализации: до 20 дней</p>
+                            <button class="order__btn price__btn open__modal__btn">Рассчитать проект</button>
                         </div>
                     </div>
                     <div class="price__block">
                         <h3 class="price__title">Промо-сайт или лендинг</h3>
-                        <p class="price__description">Одностраничный сайт это быстрое и экономичное решение, максимально заточенное на получение прибыли</p>
+                        <p class="price__description">Одностраничный сайт это быстрое и экономичное решение, максимально
+                            заточенное на получение прибыли</p>
                         <div class="price__block__benefits">
                             <div class="price__block__benefit">
                                 <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
@@ -242,22 +302,55 @@
                             </div>
                             <div class="price__block__benefit">
                                 <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
-                                <p>Установка аналитики</p>
-                            </div>
-                            <div class="price__block__benefit">
-                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
                                 <p>Адаптапция под все устройства</p>
                             </div>
                             <div class="price__block__benefit">
                                 <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
-                                <p>Неограниченое количество  блоков</p>
+                                <p>Неограниченое количество блоков</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Настройка SEO</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Заполнение сайта товаром</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Консультация по будущему продвижению сайта</p>
+                            </div>
+                            <div class="price__block__benefit">
+                                <img src="img/interface_checked-check-circle-b-s 1.svg" alt="">
+                                <p>Согласование каждого этапа работы</p>
                             </div>
                         </div>
                         <div class="bown__content__price">
-                            <span class="price">от 49.000 ₽</span>
-                        <p class="time">Срок реализации: до 15 дней</p>
-                        <button class="order__btn price__btn">Рассчитать проект</button>
+                            <span class="price">от 119.000 ₽</span>
+                            <p class="time">Срок реализации: до 30 дней</p>
+                            <button class="order__btn price__btn open__modal__btn">Рассчитать проект</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fifth__section">
+            <div class="container">
+                <div class="call__back__block">
+                    <div class="call__back__block__container">
+                        <h3>Связь с нами</h3>
+                        <form action="">
+                            <div class="form">
+                                <div class="inputs__block">
+                                    <input class="input input__name__block" type="text" placeholder="Имя">
+                                    <input class="input input__name__block input__number__block" type="text" placeholder="Телефон">
+                                </div>
+                                <div class="btn__block__content">
+                                    <p>перезвоним в течении дня</p>
+                                    <button class="order__btn order__submit form__block__bnt">Заказать</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -311,4 +404,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
