@@ -843,7 +843,7 @@ input[type="text"] {
         font-family: Inter;
         font-style: normal;
         font-weight: bold;
-        font-size: 32px;
+        font-size: 36px;
         line-height: 115.68%;
         color: #000000;
         text-align: center;
@@ -856,6 +856,15 @@ input[type="text"] {
         line-height: 148.68%;
         color: #000000;
         margin: 30px 0 30px 0;
+    }
+    #third__section h2{
+        margin: 50px 0 50px 0;
+    }
+    .prices{
+        margin-top: 50px;
+    }
+    .call__back__block {
+        height: 400px;
     }
     .main__description__br{
         display: none;
@@ -886,7 +895,8 @@ input[type="text"] {
         margin: 0 0 70px 0;
     }
     .portfolio__title {
-        font-size: 28px;
+        font-size: 22px;
+        font-weight: 600;
     }
     footer{
         margin-top: 100px;
