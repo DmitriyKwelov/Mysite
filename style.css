@@ -938,6 +938,16 @@ input[type="text"] {
     .modal__block_content h3{
         font-size: 24px;
     }
+    .price__title {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 115.68%;
+        text-align: center;
+        color: #000000;
+        margin: 0;
+    }
 }
 @media (max-width:470px){
     .price__block{
@@ -998,5 +1008,28 @@ input[type="text"] {
     }
     .btn__block__content {
         width: 100%;
+    }
+    .price {
+        display: block;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 115.68%;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+    }
+}
+@media (max-width:360px){
+    .price__block {
+        padding: 20px 20px 25px 20px;
+        margin-bottom: 30px;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    .order__btn{
+        font-size: 18px;
     }
 }
